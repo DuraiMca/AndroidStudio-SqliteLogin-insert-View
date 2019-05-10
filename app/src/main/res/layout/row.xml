@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffff"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/uid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_format_list_numbered_black_24dp"
+        android:text="Id:"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/uedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+
+        android:src="@drawable/ic_edit_black_24dp" />
+
+    <TextView
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_verified_user_black_24dp"
+        android:text="Name:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/umail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:text="Email:"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/uphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_contact_phone_black_24dp"
+        android:text="Mobile:"
+        android:textSize="22dp" />
+
+</LinearLayout>
